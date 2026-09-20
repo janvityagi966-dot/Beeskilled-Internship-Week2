@@ -1,0 +1,12 @@
+with open("data.txt","r") as f:
+    contents = f.read()
+    a=contents.splitlines()
+    num_Lines = len(contents.splitlines())
+    b=contents.split()
+    num_Words = len(contents.split())
+    print(a)
+    print(b)
+    print(num_Words)
+    print("No. of Lines=", num_Lines)
+    characters = len(contents)
+    print("No. of Characters=", characters)
